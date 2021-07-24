@@ -1,12 +1,40 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("/Users/mihofunayama/Desktop/Frontend Mentor/intro-component-with-signup-form-master/images/bg-intro-desktop.png");
+  background-image: url("/Users/mihofunayama/Desktop/Frontend Mentor/intro-component-with-signup-form-master/images/bg-intro-mobile.png");
   background-color: hsl(0, 100%, 74%);
+  color: #ffffff;
+  font-size: 16px;
+}
+.sign-up-form {
+  max-width: 375px;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 30px 30px;
+  border-radius: 8px;
 }
 
 .notice {
   background-color: hsl(248, 32%, 49%);
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 8px;
 }
 .claim-button {
   background-color: hsl(154, 59%, 51%);
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px 0;
+}
+.terms {
+  color: hsl(246, 25%, 77%);
+}
+.strong-red {
+  color: hsl(0, 100%, 74%);
+}
+@media screen and (min-width: 768px) {
+  .sign-up-form {
+    max-width: 1200px;
+  }
 }
