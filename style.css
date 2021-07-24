@@ -1,0 +1,12 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("/Users/mihofunayama/Desktop/Frontend Mentor/intro-component-with-signup-form-master/images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+.notice {
+  background-color: hsl(248, 32%, 49%);
+}
+.claim-button {
+  background-color: hsl(154, 59%, 51%);
+}
